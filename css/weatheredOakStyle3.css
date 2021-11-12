@@ -16,5 +16,41 @@ Date Last Modified: 12 November, 2021
 
 /*
     ^^^^ Colors Used ^^^^
-    
+    #0b171d
+    #466273
+    #4D7893
+    #9DB6C4
+    #DAD7CD
+    #A3B18A
+    #588157
+    #3A5A40
+    #344E41
+    #590004
 */
+
+/*  ^^^ Global Styles ^^^  */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    color: #343434;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+}
+h1, h2 {
+    font-family: 'IM Fell English SC', serif;
+    font-weight: 400;
+    margin: 0;
+}
+
