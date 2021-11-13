@@ -49,10 +49,33 @@ body {
     line-height: 1.5;
 }
 
+a {
+    color: #FFE66D;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 100px;
+    line-height: 1;
+    padding: 90px 90px 20px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
 h1, h2 {
     font-family: 'IM Fell English SC', serif;
     font-weight: 400;
     margin: 0;
+}
+
+header {
+    background: #4D7893;
+    color: #DAD7CD;
 }
 
 .header .navbar-nav {
