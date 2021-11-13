@@ -55,7 +55,7 @@ h1, h2 {
     margin: 0;
 }
 
-.navbar-nav {
+.header .navbar-nav {
     clear: both;
     max-height: 0;
     transition: max-height .2s ease-out;
@@ -63,7 +63,7 @@ h1, h2 {
 
 /* menu icon */
 
-.nav-item {
+.header .nav-item {
     cursor: pointer;
     display: inline-block;
     float: right;
@@ -72,7 +72,7 @@ h1, h2 {
     user-select: none;
 }
 
-.nav-item .nav-link {
+.header .nav-item .nav-link {
     background: #333;
     display: block;
     height: 2px;
@@ -81,7 +81,7 @@ h1, h2 {
     width: 18px;
 }
 
-.nav-item .nav-link:before, .header .nav-item .nav-link:after {
+.header .nav-item .nav-link:before, .header .nav-item .nav-link:after {
     background: #333;
     content: '';
     display: block;
@@ -91,12 +91,37 @@ h1, h2 {
     width: 100%;
 }
 
-.nav-item .nav-link:before {
+.header .nav-item .nav-link:before {
     top: 5px;
 }
 
-.nav-item .nav-link:after {
+.header .nav-item .nav-link:after {
     top: -5px;
+}
+/* Hamburger Button */
+
+.header .nav-item {
+    display: none;
+}
+
+.header .nav-item:checked~.top-nav {
+    max-height: 240px;
+}
+
+.header .nav-item:checked~.nav-link .navicon {
+    background: transparent;
+}
+
+.header .nav-item:checked~.nav-link .navicon:before {
+    transform: rotate(-45deg);
+}
+
+.header .nav-item:checked~.nav-link .navicon:after {
+    transform: rotate(45deg);
+}
+
+.header .nav-item:checked~.nav-link:not(.steps) .navicon:before, .header .nav-item:checked~.nav-link:not(.steps) .navicon:after {
+    top: 0;
 }
 
 /*
