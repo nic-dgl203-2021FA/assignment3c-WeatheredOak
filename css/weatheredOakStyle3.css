@@ -54,3 +54,46 @@ h1, h2 {
     margin: 0;
 }
 
+.navbar-nav {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.nav-item {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+}
+
+.nav-item .nav-link {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+}
+
+ .nav-item .nav-link:before, .header .nav-item .nav-link:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+ .nav-item .nav-link:before {
+    top: 5px;
+}
+
+ .nav-item .nav-link:after {
+    top: -5px;
+}
