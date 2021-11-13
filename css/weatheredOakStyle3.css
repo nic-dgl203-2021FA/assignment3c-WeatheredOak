@@ -41,13 +41,14 @@ Date Last Modified: 12 November, 2021
 }
 
 body {
-    color: #343434;
+    color: #0b171d;
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
     font-size: 17px;
     line-height: 1.5;
 }
+
 h1, h2 {
     font-family: 'IM Fell English SC', serif;
     font-weight: 400;
@@ -80,7 +81,7 @@ h1, h2 {
     width: 18px;
 }
 
- .nav-item .nav-link:before, .header .nav-item .nav-link:after {
+.nav-item .nav-link:before, .header .nav-item .nav-link:after {
     background: #333;
     content: '';
     display: block;
@@ -90,10 +91,178 @@ h1, h2 {
     width: 100%;
 }
 
- .nav-item .nav-link:before {
+.nav-item .nav-link:before {
     top: 5px;
 }
 
- .nav-item .nav-link:after {
+.nav-item .nav-link:after {
     top: -5px;
 }
+
+/*
+.boat-wrap {
+
+    light {
+  background: conic-gradient( black 0deg 85deg, 
+    white 85deg 95deg, 
+    black 95deg 265deg, 
+    white 265deg 275deg, 
+    black 0deg );
+
+  width: 180vw;
+  height: 100vh;
+  border-radius: 0%;
+  filter: blur( 10px );
+  position: relative;
+  top: -23vh;
+  animation: flash 2s linear infinite;
+  animation-direction: alternate-reverse;
+
+    }
+
+    tower {
+  
+  position: absolute;
+  width: 10vw;
+  height: 50vh;
+  left: 85vw;
+  bottom: 30vh;
+    }
+    tower::before {
+  
+  content: "";
+  
+  position: absolute;
+  width: 20vh;
+  height: 5vh;
+  background-color: black;
+  top: 60%;
+
+  box-shadow: 0 10vh 0vh black;
+    }
+
+    tower::after {
+  
+  content: "";
+  
+  position: absolute;
+  width: 80%;
+  height: 14%;
+  left: 10%;
+  right: 90%;
+  background-color: black;
+  top: 5%;
+  border-radius: 30% 30% 0 0;
+
+    animation: light 2s linear infinite;
+  animation-direction: alternate-reverse;
+
+
+    }
+    @keyframes flash {
+  
+  from { opacity: 0; }
+  to { opacity: 1; }
+  
+    }
+
+    @keyframes light {
+  
+  from { background: black; }
+  to { background: white; }
+  
+    }
+
+
+
+
+     This contains a tugboat cruising through choppy water as a cloud drifts overhead.
+        The boat bobs slightly in the sea.
+        background: #ace5ee;
+        width: 2fr;
+        height: 2fr;
+        border-radius: 20%;
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        justify-content: center;
+    }
+    
+    .aqua {
+        height: 200px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+    }
+    
+    .aqua img {
+        width: 150%;
+    }
+    
+    .waves {
+        height: 100%;
+        position: absolute;
+        right: 0;
+        animation: waves 10s linear infinite;
+    }
+    
+    @keyframes waves {
+        0% {
+            transform: translate(100px);
+        }
+        100% {
+            transform: translate(10px);
+        }
+    }
+    
+    .tugboat {
+        animation: boat 3s linear infinite;
+        background-repeat: no-repeat;
+        bottom: 200px;
+        height: 75px;
+        left: 30%;
+        position: absolute;
+        width: 400px;
+    }
+    
+    .tugboat img {
+        width: 65%;
+    }
+    
+    @keyframes boat {
+        0% {
+            transform: rotate(0);
+        }
+        50% {
+            transform: rotate(-3deg);
+        }
+        100% {
+            transform: rotate(0);
+        }
+    }
+    
+    .cloud3 {
+        animation: cloud 30s linear infinite;
+        background-repeat: no-repeat;
+        height: 300px;
+        left: 0;
+        position: absolute;
+        width: 297px;
+    }
+    
+    .cloud3 img {
+        width: 50%;
+    }
+    
+    @keyframes cloud {
+        0% {
+            left: -30%;
+        }
+        100% {
+            left: 100%;
+        }
+    }
+*/
