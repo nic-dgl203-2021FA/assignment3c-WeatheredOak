@@ -102,82 +102,9 @@ h1, h2 {
 /*
 .boat-wrap {
 
-    light {
-  background: conic-gradient( black 0deg 85deg, 
-    white 85deg 95deg, 
-    black 95deg 265deg, 
-    white 265deg 275deg, 
-    black 0deg );
-
-  width: 180vw;
-  height: 100vh;
-  border-radius: 0%;
-  filter: blur( 10px );
-  position: relative;
-  top: -23vh;
-  animation: flash 2s linear infinite;
-  animation-direction: alternate-reverse;
-
-    }
-
-    tower {
-  
-  position: absolute;
-  width: 10vw;
-  height: 50vh;
-  left: 85vw;
-  bottom: 30vh;
-    }
-    tower::before {
-  
-  content: "";
-  
-  position: absolute;
-  width: 20vh;
-  height: 5vh;
-  background-color: black;
-  top: 60%;
-
-  box-shadow: 0 10vh 0vh black;
-    }
-
-    tower::after {
-  
-  content: "";
-  
-  position: absolute;
-  width: 80%;
-  height: 14%;
-  left: 10%;
-  right: 90%;
-  background-color: black;
-  top: 5%;
-  border-radius: 30% 30% 0 0;
-
-    animation: light 2s linear infinite;
-  animation-direction: alternate-reverse;
-
-
-    }
-    @keyframes flash {
-  
-  from { opacity: 0; }
-  to { opacity: 1; }
-  
-    }
-
-    @keyframes light {
-  
-  from { background: black; }
-  to { background: white; }
-  
-    }
-
-
-
-
-     This contains a tugboat cruising through choppy water as a cloud drifts overhead.
+       This contains a tugboat cruising through choppy water as a cloud drifts overhead.
         The boat bobs slightly in the sea.
+
         background: #ace5ee;
         width: 2fr;
         height: 2fr;
@@ -264,5 +191,75 @@ h1, h2 {
         100% {
             left: 100%;
         }
+    }
+      light {
+  background: conic-gradient( black 0deg 85deg, 
+    white 85deg 95deg, 
+    black 95deg 265deg, 
+    white 265deg 275deg, 
+    black 0deg );
+
+  width: 180vw;
+  height: 100vh;
+  border-radius: 0%;
+  filter: blur( 10px );
+  position: relative;
+  top: -23vh;
+  animation: flash 2s linear infinite;
+  animation-direction: alternate-reverse;
+
+    }
+
+    lighthouse {
+  
+  position: absolute;
+  width: 10vw;
+  height: 50vh;
+  left: 85vw;
+  bottom: 30vh;
+    }
+    lighthouse::before {
+  
+  content: "";
+  
+  position: absolute;
+  width: 20vh;
+  height: 5vh;
+  background-color: black;
+  top: 60%;
+
+  box-shadow: 0 10vh 0vh black;
+    }
+
+    lighthouse::after {
+  
+  content: "";
+  
+  position: absolute;
+  width: 80%;
+  height: 14%;
+  left: 10%;
+  right: 90%;
+  background-color: black;
+  top: 5%;
+  border-radius: 30% 30% 0 0;
+
+    animation: light 2s linear infinite;
+  animation-direction: alternate-reverse;
+
+
+    }
+    @keyframes flash {
+  
+  from { opacity: 0; }
+  to { opacity: 1; }
+  
+    }
+
+    @keyframes light {
+  
+  from { background: black; }
+  to { background: white; }
+  
     }
 */
