@@ -311,6 +311,26 @@ h1, h2 {
   
     }
 */
+
+@media screen and (min-width:750px) {
+    header, footer {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    h1 {
+        text-align: center;
+        font-size: 60px;
+        line-height: 0.9;
+        margin-bottom: 20px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 1;
+    }
+}
+
 @media screen and (max-width: 450px) {
     h1 {
         text-align: center;
