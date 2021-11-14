@@ -73,7 +73,7 @@ h1, h2 {
     margin: 0;
 }
 
-header {
+.profile {
     background: #4D7893;
     color: #DAD7CD;
 }
@@ -311,3 +311,15 @@ header {
   
     }
 */
+@media screen and (max-width: 450px) {
+    h1 {
+        text-align: center;
+        font-size: 40px;
+        line-height: 0.8;
+        margin-bottom: 20px;
+    }
+    h2 {
+        font-size: 20px;
+        line-height: 1;
+    }
+}
