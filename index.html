@@ -39,7 +39,7 @@ Date Last Modified: 12 November, 2021
   <header class="header jumbotron jumbotron-fluid" style="background-color: #4D7893;">
     <div class="container d-flex">
       <section id="profile" style="color:#DAD7CD">
-        <img class="d-flex mr-1 img-fluid rounded" style="width: 300px;" src="images/WLProfile.jpg" alt="Profile Photo">
+        <img class="d-flex mr-1 img-fluid rounded" src="images/WLProfile.jpg" alt="Profile Photo">
         <h1 style="font-family: 'IM Fell English SC', serif">Weathered Oak Media</h1>
         <h2 style="font-family: 'IM Fell English SC', serif">Will Lewthwaite</h2>
         <h3 style="font-family: 'Raleway', sans-serif">Student, Artist, Musician, Photographer</h3>
@@ -96,12 +96,12 @@ Date Last Modified: 12 November, 2021
       </section> <!-- Profile -->
     </div> <!-- Profile container -->
   </header>
-  <div class="container" id="portfolio">
+  <div class="container-fluid mb-15px" id="portfolio">
     <h2 style="font-family: 'IM Fell English SC', serif">Selected Projects</h2>
 
-    <div class="row row-cols-2">
-      <div class="col">
-        <div class="card" style="width: 400px;">
+    <div class="row">
+      <div class="col-sm d-flex">
+        <div class="card h-100">
           <img class="card-img-top" src="images/GuitarNerdsCover.jpg" alt="Magazine Cover">
           <div class="card-body">
             <h4 class="card-title" style="font-family: 'IM Fell English SC', serif">Guitar Nerds Magazine Cover</h4>
@@ -117,8 +117,8 @@ Date Last Modified: 12 November, 2021
           </div>
         </div> <!-- card -->
       </div> <!-- col -->
-      <div class="col">
-        <div class="card" style="width: 400px;">
+      <div class="col-sm d-flex">
+        <div class="card h-100">
           <img class="card-img-top" src="images/BeachMasse3_WL.jpg" alt="Illustrated poster">
           <div class="card-body">
             <h4 class="card-title" style="font-family: 'IM Fell English SC', serif">Angry Seagull Social Good Poster
@@ -137,8 +137,8 @@ Date Last Modified: 12 November, 2021
           </div>
         </div> <!-- card -->
       </div> <!-- col -->
-      <div class="col">
-        <div class="card" style="width: 400px;">
+      <div class="col-sm d-flex">
+        <div class="card h-100">
           <img class="card-img-top" src="images/WillCaveArt.jpg" alt="Cave Art Drawing">
           <div class="card-body">
             <h4 class="card-title" style="font-family: 'IM Fell English SC', serif">BC 30,000 BC</h4>
@@ -160,18 +160,20 @@ Date Last Modified: 12 November, 2021
     </div> <!-- Rows and columns -->
   </div> <!-- Portfolio Container -->
 
-  <div class="container d-sm-inline-block" id="animations" style="background-color: black;">
+  <div class="container-fluid" id="animations" style="background-color: black;">
     <h2 style="color:#DAD7CD; font-family:'IM Fell English SC', serif">Animations</h2>
     <p style="color:#DAD7CD; font-family: 'Raleway', sans-serif">I created all artwork in Adobe Illustrator and the
       animation features were sourced from tutorial materials.</p>
-    <div class="porthole">
-      <div class="boat-wrap">
-        <div class="aqua"><img src="images/Ocean1.png" class="waves"></div>
-        <div class="tugboat"><img src="images/Tugboat.svg"></div>
-        <div class="cloud3"><img src="images/Cloud3.svg"></div>
-        <div class="lighthouse"><img src="images/Lighthouse.svg"></div>
+    <section class="container" style="height: 800px;" id="porthole">
+      <div class="row h-100" id="boat-wrap">
+        <div class="col">
+          <div class="aqua"><img src="images/Ocean1.png" class="waves"></div>
+          <div class="tugboat"><img src="images/Tugboat.svg"></div>
+          <div class="cloud3"><img src="images/Cloud3.svg"></div>
+          <div class="lighthouse"><img src="images/Lighthouse.svg"></div>
+        </div>
       </div>
-    </div>
+    </section>
   </div> <!-- Animations -->
   <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
   <script src="js/popper.min.js"></script>
