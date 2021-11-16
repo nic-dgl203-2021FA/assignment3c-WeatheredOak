@@ -307,7 +307,51 @@ h1, h2 {
         background: white;
     }
 }
+/* City with clouds and UFO */
+.cloud4 {
+    animation: float 25s 5s linear infinite backwards;
+}
 
+.UFO {
+    animation: float 15s linear infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateX(-800px);
+    }
+    100% {
+        transform: translateX(820px);
+    }
+}
+
+.sky-scraper, .cloud {
+    position: absolute;
+}
+
+.sky-scraper {
+    z-index: 50;
+}
+
+.cloud4 {
+    top: 76px;
+}
+
+.UFO {
+    top: 50px;
+}
+
+img.cloud {
+    width: 150px;
+}
+
+img.UFO {
+    width: 100px;
+}
+
+.sky-scraper img {
+    width: 100%;
+}
 @media screen and (min-width:750px) {
     header, footer {
         text-align: center;
