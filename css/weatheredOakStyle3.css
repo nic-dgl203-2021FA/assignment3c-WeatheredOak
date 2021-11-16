@@ -148,12 +148,12 @@ h1, h2 {
     top: 0;
 }
 
-.porthole {
+/*.porthole {
     background: #9CB0B8;
     display: grid;
     gap: 10px;
     grid-template-columns: 2fr 2fr;
-}
+}*/
 
 .boat-wrap {
     /*This contains a tugboat cruising through choppy water as a cloud drifts overhead.
