@@ -2,7 +2,7 @@
 NIC DGL-203
 Assignment 3c - Master Stylesheet
 Author: Will Lewthwaite
-Date Last Modified: 12 November, 2021
+Date Last Modified: 16 November, 2021
 */
 
 /*
@@ -72,91 +72,28 @@ h1, h2 {
     font-weight: 400;
     margin: 0;
 }
+
+.navbar-dark {
+    background-color: #466273;
+}
+
 .bg-dark {
- background-color: #466273;
+    background-color: #466273;
 }
 
-.profile {
-    background: #4D7893;
-    color: #DAD7CD;
+.jumbotron {
+    background-image: url('../images/WLProfile.jpg');
+    background-size: cover;
+    color: #A3B18A;    
 }
 
-/*.header .navbar-nav {
-    clear: both;
-    max-height: 0;
-    transition: max-height .2s ease-out;
-}
 
- menu icon
-
-.header .nav-item {
-    cursor: pointer;
-    display: inline-block;
-    float: right;
-    padding: 28px 20px;
-    position: relative;
-    user-select: none;
-}
-
-.header .nav-item .nav-link {
-    background: #333;
-    display: block;
-    height: 2px;
-    position: relative;
-    transition: background .2s ease-out;
-    width: 18px;
-}
-
-.header .nav-item .nav-link:before, .header .nav-item .nav-link:after {
-    background: #333;
-    content: '';
-    display: block;
-    height: 100%;
-    position: absolute;
-    transition: all .2s ease-out;
-    width: 100%;
-}
-
-.header .nav-item .nav-link:before {
-    top: 5px;
-}
-
-.header .nav-item .nav-link:after {
-    top: -5px;
-}
-
- Hamburger Button
-
-.header .nav-item {
-    display: none;
-}
-
-.header .nav-item:checked~.top-nav {
-    max-height: 240px;
-}
-
-.header .nav-item:checked~.nav-link .navicon {
-    background: transparent;
-}
-
-.header .nav-item:checked~.nav-link .navicon:before {
-    transform: rotate(-45deg);
-}
-
-.header .nav-item:checked~.nav-link .navicon:after {
-    transform: rotate(45deg);
-}
-
-.header .nav-item:checked~.nav-link:not(.steps) .navicon:before, .header .nav-item:checked~.nav-link:not(.steps) .navicon:after {
-    top: 0;
-}
-
-/*.porthole {
+.porthole {
     background: #9CB0B8;
     display: grid;
     gap: 10px;
     grid-template-columns: 2fr 2fr;
-}*/
+}
 
 .boat-wrap {
     /*This contains a tugboat cruising through choppy water as a cloud drifts overhead.
@@ -310,7 +247,9 @@ h1, h2 {
         background: white;
     }
 }
+
 /* City with clouds and UFO */
+
 .cloud4 {
     animation: float 25s 5s linear infinite backwards;
 }
@@ -355,6 +294,7 @@ img.UFO {
 .sky-scraper img {
     width: 100%;
 }
+
 @media screen and (min-width:750px) {
     header, footer {
         text-align: center;
@@ -391,7 +331,6 @@ img.UFO {
         width: 30%;
     }
 }
-
 
 @media screen and (max-width: 450px) {
     h1 {
