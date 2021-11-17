@@ -60,8 +60,7 @@ a:hover {
 h1 {
     font-size: 100px;
     line-height: 1;
-    padding: 90px 90px 20px;
-}
+    }
 
 h2 {
     font-size: 45px;
@@ -82,11 +81,9 @@ h1, h2 {
 }
 
 .jumbotron {
-    background-image: url('../images/WLProfile.jpg');
-    background-size: cover;
-    color: #A3B18A;    
+    background-color: #466273;
+    color: #DAD7CD;
 }
-
 
 .porthole {
     background: #9CB0B8;
