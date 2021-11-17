@@ -9,9 +9,7 @@ Date Last Modified: 16 November, 2021
     ### Contents ###
     1. Colors
     2. Global Styles
-    3. placeholder
-    4. Motions
-    5. Animations
+    3. Animations
 */
 
 /*
@@ -103,38 +101,28 @@ h1, h2 {
     align-items: center;
 }
 
-.porthole {
-    background: #9CB0B8;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 2fr 2fr;
+.footer{
+    background-color:#466273;
+    color: #DAD7CD;
 }
 
-.boat-wrap {
-    /*This contains a tugboat cruising through choppy water as a cloud drifts overhead.
-        The boat bobs slightly in the sea.*/
-    background: #ace5ee;
-    width: 2fr;
-    height: 2fr;
-    border-radius: 20%;
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-    justify-content: center;
-}
+/* ^^^ Animations ^^^ */
+
+.animations {
+    background: #0b171d;
+    color: #DAD7CD;
+    }
 
 .aqua {
-    height: 90px;
+    height: 200px;
     position: absolute;
-    bottom: 20;
-    width: 90%;
+    bottom: 0;
+    width: 100%;
     left: 0;
 }
 
 .aqua img {
-    width: 90%;
+    width: 150%;
 }
 
 .animated-waves {
@@ -203,7 +191,7 @@ h1, h2 {
 
 .light {
     background: conic-gradient( black 0deg 85deg, white 85deg 95deg, black 95deg 265deg, white 265deg 275deg, black 0deg);
-    width: 180vw;
+    width: 60vw;
     height: 100vh;
     border-radius: 0%;
     filter: blur( 10px);
@@ -217,11 +205,11 @@ h1, h2 {
     position: absolute;
     width: 10vw;
     height: 50vh;
-    left: 85vw;
+    left: 55vw;
     bottom: 30vh;
 }
 
-.lighthouse::before {
+/*.lighthouse::before {
     content: "";
     position: absolute;
     width: 20vh;
@@ -243,7 +231,7 @@ h1, h2 {
     border-radius: 30% 30% 0 0;
     animation: light 2s linear infinite;
     animation-direction: alternate-reverse;
-}
+}*/
 
 @keyframes flash {
     from {
@@ -282,7 +270,7 @@ h1, h2 {
     }
 }
 
-.sky-scraper, .cloud {
+.sky-scraper, .cloud4 {
     position: absolute;
 }
 
@@ -298,8 +286,8 @@ h1, h2 {
     top: 50px;
 }
 
-img.cloud {
-    width: 150px;
+img.cloud3 {
+    width: 70px;
 }
 
 img.UFO {
