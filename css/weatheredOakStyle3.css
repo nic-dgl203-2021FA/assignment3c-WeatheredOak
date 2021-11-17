@@ -60,7 +60,7 @@ a:hover {
 h1 {
     font-size: 100px;
     line-height: 1;
-    }
+}
 
 h2 {
     font-size: 45px;
@@ -83,6 +83,24 @@ h1, h2 {
 .jumbotron {
     background-color: #466273;
     color: #DAD7CD;
+}
+
+.btn-primary {
+    background-color: #588157;
+}
+.btn-secondary{
+    background-color:  #A20104;
+}
+
+.modal-dialog {
+    color: #0b171d;
+}
+.form-group {
+    color: #0b171d;
+}
+
+.form-control {
+    align-items: center;
 }
 
 .porthole {
