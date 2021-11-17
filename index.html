@@ -20,21 +20,28 @@ Date Last Modified: 12 November, 2021
 
 <body>
 
-  <nav class="navbar navbar-expand-lg" style="background-color: #466273;">
+  <nav class="navbar sticky-top navbar-dark bg-dark navbar-expand-md">
     <div class="container">
-      <a class="navbar-brand d-none d-sm-inline-block" href="#index.html">
-        <img src="images/WeatheredOak_FilmStripLogo_Light.png" style="width: 150px;" alt="Weathered Oak Media Logo">
+      <a href="#index.html" class="navbar-brand">
+        <img src="images/WeatheredOak_FilmStripLogo_Light.png" alt="Weathered Oak Media Logo">
       </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav"
+        aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+    <div class="collapse navbar-collapse" id="myTogglerNav">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active font-weight-bolder" style="color: #9DB6C4;" href="#profile">About Me</a>
-        <a class="nav-item nav-link font-weight-bolder" style="color: #DAD7CD;" href="#portfolio">Selected Projects</a>
-        <a class="nav-item nav-link font-weight-bolder" style="color: #DAD7CD;" href="#animations">Animations</a>
-        <a class="nav-item nav-link font-weight-bolder" style="color: #DAD7CD;" href="#skills">Skills</a>
-        <a class="nav-item nav-link font-weight-bolder" style="color: #DAD7CD;" href="#education">Education</a>
-        <a class="nav-item nav-link font-weight-bolder" style="color: #DAD7CD;" href="#footer-contact">Contact</a>
-      </div>
-    </div>
-  </nav>
+        <a class="nav-item nav-link active font-weight-bolder" href="#profile">About Me</a>
+        <a class="nav-item nav-link font-weight-bolder" href="#portfolio">Selected Projects</a>
+        <a class="nav-item nav-link font-weight-bolder" href="#animations">Animations</a>
+        <a class="nav-item nav-link font-weight-bolder" href="#skills">Skills</a>
+        <a class="nav-item nav-link font-weight-bolder" href="#education">Education</a>
+        <a class="nav-item nav-link font-weight-bolder" href="#footer-contact">Contact</a>
+      </div> <!-- The Navbar, where coders go for a drink -->
+    </div> <!-- Collapse -->
+  </div> <!-- Container -->
+  </nav> <!-- The whole Nav and nothing but the Nav -->
   <header class="header jumbotron jumbotron-fluid" style="background-color: #4D7893;">
     <div class="container d-flex">
       <section id="profile" style="color:#DAD7CD">

@@ -72,19 +72,22 @@ h1, h2 {
     font-weight: 400;
     margin: 0;
 }
+.bg-dark {
+ background-color: #466273;
+}
 
 .profile {
     background: #4D7893;
     color: #DAD7CD;
 }
 
-.header .navbar-nav {
+/*.header .navbar-nav {
     clear: both;
     max-height: 0;
     transition: max-height .2s ease-out;
 }
 
-/* menu icon */
+ menu icon
 
 .header .nav-item {
     cursor: pointer;
@@ -122,7 +125,7 @@ h1, h2 {
     top: -5px;
 }
 
-/* Hamburger Button */
+ Hamburger Button
 
 .header .nav-item {
     display: none;
@@ -369,7 +372,7 @@ img.UFO {
         font-size: 30px;
         line-height: 1;
     }
-    .porthole {
+    /*.porthole {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
@@ -379,7 +382,7 @@ img.UFO {
         height: 300px;
         flex-direction: column;
         justify-content: center;
-    }
+    }*/
     .tugboat img {
         width: 40%;
         height: 200px;
